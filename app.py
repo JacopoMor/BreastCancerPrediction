@@ -68,6 +68,6 @@ def cancerPrediction():
     
     return render_template('home.html', output1=output, output2=output1, query1 = request.form['query1'], query2 = request.form['query2'],query3 = request.form['query3'],query4 = request.form['query4'],query5 = request.form['query5'])
 
-if __name__ == "__main__"  
+if __name__ == "__main__":
     app.run()
 
